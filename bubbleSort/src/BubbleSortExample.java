@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class BubbleSortExample {
-        static void bubbleSort(int[] intArray) {
+        static void bubbleSortInt(int[] intArray) {
             int n = intArray.length;
             System.out.println("Before bubble sort : "+Arrays.toString(intArray));
             int temp = 0;
@@ -17,6 +17,7 @@ public class BubbleSortExample {
                         intArray[j-1] = intArray[j];
                         intArray[j] = temp;
                     }
+
                 }
                 if(noChange) break;
             }

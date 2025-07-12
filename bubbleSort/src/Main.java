@@ -5,6 +5,6 @@ public class Main {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         int[] intArray={1,5,3,6,9,2,7,4,8};
-        BubbleSortExample.bubbleSort(intArray);
+        BubbleSortExample.bubbleSortInt(intArray);
     }
 }
